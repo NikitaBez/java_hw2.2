@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int startbalance = 100;
-        int refill = 3100;
+        int startBalance = 100;
+        int refill = 1100;
 
         int bonus;
         if (refill >= 1000) {
@@ -9,9 +9,9 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int finishbalance = startbalance + refill + bonus;
+        int finishBalance = startBalance + refill + bonus;
 
-        System.out.println( " Баланс лицевого счета составляет " + finishbalance + " руб. " );
+        System.out.println( " Баланс лицевого счета составляет " + finishBalance + " руб. " );
         System.out.println( " В том числе " + bonus + " бонусных рублей ");
     }
 }
